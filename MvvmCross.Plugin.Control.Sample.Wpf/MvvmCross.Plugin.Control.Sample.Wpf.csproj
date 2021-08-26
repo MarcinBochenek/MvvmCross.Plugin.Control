@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="8.0.2" />
+    <PackageReference Include="MvvmCross.Platforms.Wpf" Version="8.0.2" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.Trace" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MvvmCross.Plugin.Control.Platforms.Wpf\MvvmCross.Plugin.Control.Platforms.Wpf.csproj" />
+    <ProjectReference Include="..\MvvmCross.Plugin.Control.Sample.Core\MvvmCross.Plugin.Control.Sample.Core.csproj" />
+    <ProjectReference Include="..\MvvmCross.Plugin.Control\MvvmCross.Plugin.Control.csproj" />
+  </ItemGroup>
+
+</Project>
