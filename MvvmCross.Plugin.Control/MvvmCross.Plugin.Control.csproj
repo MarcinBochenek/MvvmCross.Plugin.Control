@@ -11,6 +11,9 @@
     <PackageProjectUrl>https://github.com/MarcinBochenek/MvvmCross.Plugin.Control</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MarcinBochenek/MvvmCross.Plugin.Control</RepositoryUrl>
     <PackageId>MBo.MvvmCross.Plugin.Control</PackageId>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

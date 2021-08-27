@@ -11,6 +11,9 @@
     <RepositoryUrl>https://github.com/MarcinBochenek/MvvmCross.Plugin.Control</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>MBo.MvvmCross.Plugin.Control.Platforms.Wpf</PackageId>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
