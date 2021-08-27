@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Marcin Bochenek</Authors>
+    <Company>cshark.com</Company>
+    <Description>MvvmCross is the .NET MVVM framework for cross-platform solutions, including Xamarin iOS, Xamarin Android, Xamarin Forms, Windows and Mac. This package contains the 'MvxWpfControl' control for MvvmCross.</Description>
+    <Copyright>Marcin Bochenek</Copyright>
+    <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/MarcinBochenek/MvvmCross.Plugin.Control</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MarcinBochenek/MvvmCross.Plugin.Control</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>MBo.MvvmCross.Plugin.Control.Platforms.Wpf</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

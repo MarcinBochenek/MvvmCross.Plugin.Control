@@ -6,10 +6,18 @@ namespace MvvmCross.Plugin.Control
 {
     class ViewModelFinder : IViewModelFinder
     {
+        private const string ControlSuffix = "Control";
+        private const string ViewModelSuffix = "ViewModel";
+
         public IMvxViewModel FindView(IMvxControl control)
         {
             var controlName = control.GetType().Name;
-            var viewModelName = controlName.Replace("Control", "ViewModel");
+            if (controlName.EndsWith("Control"))
+            {
+                controlName = controlName.Substring(0, controlName.Length - ControlSuffix.Length);
+            }
+
+            var viewModelName = string.Concat(controlName, ViewModelSuffix);
 
             var viewModelType = AppDomain.CurrentDomain.GetAssemblies()
                 .SelectMany(x => x.GetTypes())
