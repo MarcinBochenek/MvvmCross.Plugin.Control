@@ -111,3 +111,6 @@ UpgradeLog*.XML
 
 # Nuget package files
 *.nupkg
+/.vs/slnx.sqlite
+/.vs
+/MvvmCross.Plugin.Control/.vs/MvvmCross.Plugin.Control/DesignTimeBuild/.dtbcache.v2
