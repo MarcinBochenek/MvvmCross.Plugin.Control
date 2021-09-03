@@ -27,5 +27,12 @@ Plugin to MvvCross, automatically search and assign viewmodels to controls.
      - WindowControl.xaml => WindowViewModel.cs 
      - Footer.xaml => FooterViewModel.cs
      
-     
+5. Add on View:
+<controls:NavigationBarControl InitializeOnLoad="true" />
+
+
+Additional attributes:
+- InitializeOnLoad => Initialize and display on page load
+
+
 Check sample for more info.
